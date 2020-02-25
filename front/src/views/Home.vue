@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-
+    <ContentHome/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
+import ContentHome from '../components/ContentHome'
 export default {
   name: "Home",
   components: {
+    ContentHome,
   }
 };
 </script>
