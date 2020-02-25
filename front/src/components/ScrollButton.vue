@@ -1,5 +1,5 @@
 <template>
-    <v-btn
+    <v-btn class="scroll-y"
     v-scroll="onScroll"
     v-show="fab"
     fab
