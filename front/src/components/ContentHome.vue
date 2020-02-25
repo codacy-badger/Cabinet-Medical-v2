@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container class="scroll-y">           
+    <v-container>           
             <v-col>                 
             <h1>Nom du médecin n°1</h1>
             <p>
