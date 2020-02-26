@@ -1,7 +1,7 @@
 <template>
   <v-card class="overflow-hidden">
     <div class="center HeaderColor">
-      <v-toolbar-title>Nom de l'entreprise</v-toolbar-title> 
+      <v-toolbar-title>Consult'Med</v-toolbar-title> 
      <v-btn>
       <router-link to="/"><strong>Home</strong></router-link>
     </v-btn>
@@ -24,6 +24,6 @@
     text-align: center;
 }
 .HeaderColor{
-   background-color:#64b2cd
+   background-color:#eae9e9
 }
 </style>
