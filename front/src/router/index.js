@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-
+import Contact from "../views/Contact"
 Vue.use(VueRouter);
 
 const routes = [
@@ -16,7 +16,12 @@ const routes = [
 
     component: () =>
       import("../views/About.vue")
-  }
+  },
+  {
+    path: "/contact",
+    name: "Contact",
+    component: Contact
+  },
 ];
 
 const router = new VueRouter({
